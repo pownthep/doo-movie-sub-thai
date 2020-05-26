@@ -1,0 +1,164 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  margin-right: 1.25rem;
+  width: 150px;
+  height: 280px;
+}
+
+.lightText {
+  color: #999;
+}
+
+.thumbnail {
+  width: 150px;
+  height: 210px;
+  border-radius: 5px;
+}
+
+.search[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 60px;
+  font-size: 16px;
+  background-color: rgb(245,244,242);
+  background-image: url("../public/images/search.png");
+  background-position: 20px 13px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 50px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
+.search[type="text"]:focus {
+  outline: none;
+}
+
+.search::before {
+  filter: grayscale(100%);
+}
+
+.title {
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.navItem {
+  color: black;
+  font-size: 16px;
+}
+
+.navItem:hover {
+  text-decoration: none;
+}
+
+.noSuggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.suggestions {
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 5px;
+  overflow-y: auto;
+  padding-left: 0;
+  border-radius: 4px;
+  position: fixed;
+  background-color: white;
+  min-width: 300px;
+  max-width: 90%;
+  max-height: 50vh;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.suggestions li {
+  padding: 0.5rem;
+  transition: background-color 300ms ease-in-out;
+}
+
+.suggestionActive,
+.suggestions li:hover {
+  background-color: rgb(245,244,242);
+  cursor: pointer;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+
+.suggestionImg {
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navItemIcon {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.navItemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
