@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
         <script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
-        <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.5.2/plyr.css" />
       </Head>
       <header className={styles.header}>
         {home ? (

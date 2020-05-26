@@ -3,6 +3,7 @@ import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
+import Player from '../../components/player';
 
 export default function Post({ postData }) {
   return (
@@ -16,6 +17,7 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <Player source={postData.url} subtitle={postData.thai}/>
       </article>
     </Layout>
   );
