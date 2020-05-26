@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <Autocomplete suggestions={allPostsData} />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h5 className={utilStyles.lightText}>POPULAR THIS SEASON</h5>
+        <h5 className={utilStyles.lightText}>LATEST / ล่าสุด</h5>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, thumbnail }) => (
             <li className={utilStyles.listItem} key={id}>

@@ -10,7 +10,7 @@ export default function Navbar() {
           className={utilStyles.navItemIcon}
         /> 
         <a href="" className={utilStyles.navItem}>
-          Animes
+          Animes / แอนิเมะ
         </a>
       </div>
       <div className={utilStyles.navItemContainer}>
@@ -20,7 +20,7 @@ export default function Navbar() {
           className={utilStyles.navItemIcon}
         />
         <a href="" className={utilStyles.navItem}>
-          Movies
+          Movies / หนัง
         </a>
       </div>
       <div className={utilStyles.navItemContainer}>
@@ -30,7 +30,7 @@ export default function Navbar() {
           className={utilStyles.navItemIcon}
         />
         <a href="" className={utilStyles.navItem}>
-          TV
+          TV / ซีรีส์
         </a>
       </div>
     </div>

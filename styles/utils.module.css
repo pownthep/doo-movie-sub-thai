@@ -48,9 +48,9 @@
 }
 
 .listItem {
-  margin-right: 1.25rem;
-  width: 150px;
-  height: 280px;
+  margin-right: 0.2rem;
+  width: 182px;
+  height: 340px;
 }
 
 .lightText {
@@ -58,9 +58,9 @@
 }
 
 .thumbnail {
-  width: 150px;
-  height: 210px;
-  border-radius: 5px;
+  width: 182px;
+  height: 268px;
+  border-radius: 0px;
 }
 
 .search[type="text"] {

@@ -35,7 +35,9 @@ class Autocomplete extends Component {
     // Filter our suggestions that don't contain the user's input
     const filteredSuggestions = suggestions.filter(
       (suggestion) =>
-        suggestion.title.toLowerCase().indexOf(userInput.toLowerCase()) > -1
+        suggestion.title.toLowerCase().indexOf(userInput.toLowerCase()) > -1 ||
+        suggestion.date.toLowerCase().indexOf(userInput.toLowerCase()) > -1 ||
+        suggestion.genre.toLowerCase().indexOf(userInput.toLowerCase()) > -1
     );
 
     // Update the user input and filtered suggestions, reset the active
@@ -155,7 +157,7 @@ class Autocomplete extends Component {
           onChange={onChange}
           onKeyDown={onKeyDown}
           value={userInput}
-          placeholder="Search..."
+          placeholder="Search/ค้นหา..."
         />
         {suggestionsListComponent}
       </Fragment>
