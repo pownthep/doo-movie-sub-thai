@@ -17,7 +17,11 @@ class Player extends Component {
   render() {
     return (
       <div>
-        <video crossOrigin="anonymous" ref={(node) => (this.videoNode = node)} src={this.props.source}>
+        <video
+          crossOrigin="anonymous"
+          ref={(node) => (this.videoNode = node)}
+          src={this.props.source}
+        >
           <track
             default
             src={this.props.subtitle}
