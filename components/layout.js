@@ -5,16 +5,16 @@ import Link from "next/link";
 import Navbar from "./navbar";
 
 const name = "Pownthep Laokhunthot";
-export const siteTitle = "Doo Movie Sub Thai";
+export const siteTitle = "Doo Movie Sub Thai (ดูหนังซับไทย)";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/cinema.svg" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Watch movies with Thai subtitle in 1080p HD resolution. ชมภาพยนตร์พร้อมคำบรรยายภาษาไทยความละเอียด 1080p HD"
         />
         <meta
           property="og:image"
@@ -24,8 +24,6 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
-        <link rel="stylesheet" href="https://cdn.plyr.io/3.5.2/plyr.css" />
       </Head>
       <header className={styles.header}>
         {home ? (
@@ -33,7 +31,9 @@ export default function Layout({ children, home }) {
             <Navbar />
           </>
         ) : (
-          <></>
+          <>
+            <Navbar />
+          </>
         )}
       </header>
       <main>{children}</main>

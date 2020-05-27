@@ -126,12 +126,12 @@ class Autocomplete extends Component {
                     key={suggestion.id}
                     onClick={onClick}
                   >
+                    <img
+                      src={suggestion.thumbnail}
+                      alt=""
+                      className={utilStyles.suggestionImg}
+                    />
                     <span>
-                      <img
-                        src={suggestion.thumbnail}
-                        alt=""
-                        className={utilStyles.suggestionImg}
-                      />
                       {suggestion.title}
                     </span>
                   </li>

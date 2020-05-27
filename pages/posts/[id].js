@@ -31,7 +31,7 @@ export default function Post({ postData }) {
           {postData.duration}
         </p>
         <p>
-          <b>Synopsis / สรุป:</b>
+          <b>Synopsis / เรื่องย่อ:</b>
         </p>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
