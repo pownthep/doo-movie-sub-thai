@@ -20,12 +20,12 @@ class Player extends Component {
         <video
           crossOrigin="anonymous"
           ref={(node) => (this.videoNode = node)}
-          src={this.props.source}
         >
+          <source type="video/mp4" src={this.props.source} />
           <track
-            default
+            default={true}
             src={this.props.subtitle}
-            kind="subtitles"
+            kind="captions"
             srcLang="th"
             label="Thai"
             crossOrigin="anonymous"

@@ -58,9 +58,16 @@
 }
 
 .thumbnail {
-  width: 182px;
-  height: 268px;
+  width: 100%;
   border-radius: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .listItem {
+    margin-right: 0.2rem;
+    width: 127px;
+    height: 250px;
+  }
 }
 
 .search[type="text"] {
