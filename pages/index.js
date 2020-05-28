@@ -12,7 +12,9 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <Autocomplete suggestions={allPostsData} />
+      <div className={utilStyles.seachContainer}>
+        <Autocomplete suggestions={allPostsData} className={`${utilStyles.margin1Rem}`}/>
+      </div>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h5 className={utilStyles.lightText}>LATEST / ล่าสุด</h5>
         <ul className={utilStyles.list}>

@@ -8,6 +8,7 @@ genre: "Animation, Adventure, Comedy / ผจญภัย, แอนิเมช
 url: "https://ipfs.io/ipfs/QmYBnPzscvcpiLXUXe9DZQ2W6LfJcgDhPneYeCqL896ezV?filename=Scoob.2020.1080p.WEBRip.x264-RARBG.mp4"
 thai: "https://ipfs.io/ipfs/QmP2GY9igaGJjnnbyaRMc6yXwu7zzm3RFhPLHAfF1u8Wx5?filename=Scoob!%20thai.vtt"
 trailer: "https://www.youtube.com/watch?v=GzlEnS7MmUo"
+banner: "https://specials-images.forbesimg.com/imageserve/5ebdf4e19f7a550006202a41/960x0.jpg?cropX1=0&cropX2=2048&cropY1=72&cropY2=1225"
 ---
 
 Scooby and the gang face their most challenging mystery ever: a plot to unleash the ghost dog Cerberus upon the world. As they race to stop this dogpocalypse, the gang discovers that Scooby has an epic destiny greater than anyone imagined.

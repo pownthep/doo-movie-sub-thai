@@ -8,6 +8,7 @@ genre: "Animation, Adventure, Comedy / ผจญภัย, แอนิเมช
 url: "https://ipfs.io/ipfs/QmXcGAxmjgmmfzMcHXCMS42cWqXeRuWEWuM6QySeGbXtBT?filename=Trolls.World.Tour.2020.1080p.WEBRip.x264-RARBG.mp4"
 thai: "https://ipfs.io/ipfs/QmQFp5rbcEjztwwB58P8PUbMrGvZbBwhdz9ecbF3qb9oqG?filename=Troll%20World%20Tour%20thai.vtt"
 trailer: "https://www.youtube.com/watch?v=08AExF6dETA"
+banner: "https://ipfs.io/ipfs/QmUSn3pYvRv96XEbMXVMw44JRSBDFmdte9WNJc6oH6xNPC?filename=trolls-header-image-mobile.jpg"
 ---
 
 Scooby and the gang face their most challenging mystery ever: a plot to unleash the ghost dog Cerberus upon the world. As they race to stop this dogpocalypse, the gang discovers that Scooby has an epic destiny greater than anyone imagined.

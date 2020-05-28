@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Navbar />
+            {/* <Navbar /> */}
           </>
         )}
       </header>

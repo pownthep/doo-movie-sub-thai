@@ -120,10 +120,9 @@ class Autocomplete extends Component {
               }
 
               return (
-                <Link href="/posts/[id]" as={`/posts/${suggestion.id}`}>
+                <Link href="/posts/[id]" as={`/posts/${suggestion.id}`} key={suggestion.id}>
                   <li
                     className={className}
-                    key={suggestion.id}
                     onClick={onClick}
                   >
                     <img
@@ -131,7 +130,7 @@ class Autocomplete extends Component {
                       alt=""
                       className={utilStyles.suggestionImg}
                     />
-                    <span>
+                    <span className={utilStyles.suggestDetail}>
                       {suggestion.title}
                     </span>
                   </li>

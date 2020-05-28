@@ -12,28 +12,40 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+        <Player
+          source={postData.url}
+          subtitle={postData.thai}
+          poster={postData.banner}
+        />
+        <div className={utilStyles.details}>
+          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+          <div className={utilStyles.lightText}>
+            <Date dateString={postData.date} />
+          </div>
+          <p>
+            <a
+              href={postData.trailer}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <b>Trailer / ภาพยนตร์โฆษณา</b>
+            </a>
+          </p>
+          <p>
+            <b>Rating / เรตติ้ง:</b> {postData.rating}
+          </p>
+          <p>
+            <b>Genre / ประเภท:</b> {postData.genre}
+          </p>
+          <p>
+            <b>Duration / ความยาวหนัง: </b>
+            {postData.duration}
+          </p>
+          <p>
+            <b>Synopsis / เรื่องย่อ:</b>
+          </p>
+          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
-        <Player source={postData.url} subtitle={postData.thai} />
-        <p>
-          <a href={postData.trailer} target="_blank" rel="noopener noreferrer"><b>Trailer / ภาพยนตร์โฆษณา</b></a>
-        </p>
-        <p>
-          <b>Rating / เรตติ้ง:</b> {postData.rating}
-        </p>
-        <p>
-          <b>Genre / ประเภท:</b> {postData.genre}
-        </p>
-        <p>
-          <b>Duration / ความยาวหนัง: </b>
-          {postData.duration}
-        </p>
-        <p>
-          <b>Synopsis / เรื่องย่อ:</b>
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   );
