@@ -145,15 +145,17 @@ class Autocomplete extends Component {
 
     return (
       <Fragment>
-        <input
-          className={utilStyles.search}
-          type="text"
-          onChange={onChange}
-          onKeyDown={onKeyDown}
-          value={userInput}
-          placeholder="Search/ค้นหา..."
-        />
-        {suggestionsListComponent}
+        <div className={utilStyles.searchContainer}>
+          <input
+            className={utilStyles.search}
+            type="text"
+            onChange={onChange}
+            onKeyDown={onKeyDown}
+            value={userInput}
+            placeholder="Search..."
+          />
+          {suggestionsListComponent}
+        </div>
       </Fragment>
     );
   }

@@ -74,9 +74,9 @@
   border-radius: 0px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 414px) {
   .listItem {
-    margin: 0px;
+    margin: 5px 0px 0px 0px;
     max-width: 100%;
   }
   .nowrap {
@@ -105,7 +105,7 @@
   border: 0px solid rgb(255, 255, 255);
   font-size: 18px;
   height: 4rem;
-  background-color: var(--darker-background);
+  background-color: var(--container-color);
   background-image: url("../public/images/cinema 32x32.png");
   background-position: 10px 12px;
   background-repeat: no-repeat;
@@ -116,10 +116,15 @@
   0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
   0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .search[type="text"]:focus {
   outline: none;
 
+}
+
+.searchContainer {
+  padding: 15px;
 }
 
 .search:hover {
@@ -161,10 +166,8 @@
   margin-top: 0px;
   overflow-y: auto;
   padding-left: 0;
-  position: absolute;
   width: 100%;
-  z-index: 10000;
-  max-height: 50vh;
+  max-height: 30vh;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -236,11 +239,12 @@
   grid-template-columns: 40px auto;
   grid-column-gap: 5px;
   background-color: var(--container-color);
-  margin-top: 2px;
+  padding-bottom: 2px;
 }
 
 .bannerContainer {
   position: relative;
+  background-color: var(--container-color);
 }
 
 .duration {
