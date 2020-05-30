@@ -40,7 +40,7 @@
 .list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,6 +66,7 @@
 
 .lightText {
   color: #999;
+  font-size: 12px;
 }
 
 .thumbnail {
@@ -102,14 +103,19 @@
   width: 100%;
   box-sizing: border-box;
   border: 0px solid rgb(255, 255, 255);
-  font-size: 16px;
-  background-color: rgb(245,244,242);
-  background-image: url("../public/images/search.png");
-  background-position: 20px 13px;
+  font-size: 18px;
+  height: 4rem;
+  background-color: var(--darker-background);
+  background-image: url("../public/images/cinema 32x32.png");
+  background-position: 10px 12px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 50px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .search[type="text"]:focus {
   outline: none;
@@ -171,14 +177,12 @@
   display: grid;
   grid-template-columns: 50px auto;
   grid-column-gap: 5px;
-  background-color: rgb(244,243,241);
+  background-color: var(--container-color);
   transition: background-color 300ms ease-in-out;
   cursor: pointer;
 }
 
-.suggestions li:nth-child(even) {
-  background: white;
-}
+
 
 .suggestions li:not(:last-of-type) {
   
@@ -220,15 +224,19 @@
 }
 
 .nowrap {
+  white-space: nowrap;
   width: 201px;
   height: 32px;
   overflow: hidden;
+  font-size: 16px;
 }
 
 .detailGrid {
   display: grid;
   grid-template-columns: 40px auto;
   grid-column-gap: 5px;
+  background-color: var(--container-color);
+  margin-top: 2px;
 }
 
 .bannerContainer {
@@ -242,7 +250,7 @@
   z-index: 1;
   margin: 0px;
   font-size:12px;
-  background-color: rgba(0, 0, 0, 0.377);
+  background-color: rgba(0, 0, 0, 0.733);
   color: white;
   border-radius: 2px;
   padding: 1px;

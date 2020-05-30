@@ -5,7 +5,7 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import Autocomplete from "../components/autocomplete";
-import Navbar from "../components/navbar";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Home({ allPostsData }) {
   return (
@@ -23,12 +23,19 @@ export default function Home({ allPostsData }) {
               <Link href="/posts/[id]" as={`/posts/${id}`} key={id}>
                 <li className={utilStyles.listItem}>
                   <div className={utilStyles.bannerContainer}>
-                    <img className={utilStyles.thumbnail} src={banner} alt="" />
+                    <LazyLoadImage
+                      alt={title}
+                      effect="opacity"
+                      src={banner}
+                      className={utilStyles.thumbnail}
+                    />
+                    {/* <img className={utilStyles.thumbnail} src={banner} alt="" /> */}
                     <p className={utilStyles.duration}>{duration}</p>
                   </div>
                   <div className={utilStyles.detailGrid}>
-                    <img
+                    <LazyLoadImage
                       className={utilStyles.smThumbnail}
+                      effect="opacity"
                       src={thumbnail}
                       alt={title}
                     />

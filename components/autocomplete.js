@@ -112,26 +112,21 @@ class Autocomplete extends Component {
         suggestionsListComponent = (
           <ul className={utilStyles.suggestions}>
             {filteredSuggestions.map((suggestion, index) => {
-              let className;
-
-              // Flag the active suggestion with a class
-              if (index === activeSuggestion) {
-                className = utilStyles.suggestionActive;
-              }
-
               return (
-                <Link href="/posts/[id]" as={`/posts/${suggestion.id}`} key={suggestion.id}>
-                  <li
-                    className={className}
-                    onClick={onClick}
-                  >
+                <Link
+                  href="/posts/[id]"
+                  as={`/posts/${suggestion.id}`}
+                  key={suggestion.id}
+                >
+                  <li>
                     <img
                       src={suggestion.thumbnail}
                       alt=""
                       className={utilStyles.suggestionImg}
                     />
                     <span className={utilStyles.suggestDetail}>
-                      {suggestion.title}
+                      {suggestion.title} <br />
+                      Rating: {suggestion.rating} <br />
                     </span>
                   </li>
                 </Link>
