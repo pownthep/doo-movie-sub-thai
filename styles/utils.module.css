@@ -157,7 +157,6 @@
   padding-left: 0;
   position: absolute;
   width: 100%;
-  max-width: 900px;
   z-index: 10000;
   max-height: 50vh;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),

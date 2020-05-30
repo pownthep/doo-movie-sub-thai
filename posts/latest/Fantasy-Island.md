@@ -8,7 +8,7 @@ genre: "Adventure, Fantasy, Horror / การผจญภัย, แฟนต�
 url: "https://ipfs.io/ipfs/QmNhY2tuyy5TBCa2JhWD5tvHYNjqMU8JuEKpvifmK1uZeK?filename=Fantasy.Island.2020.UNRATED.1080p.BluRay.H264.AAC-RARBG.mp4"
 thai: "https://ipfs.io/ipfs/Qmc6HsXVTSnJTQqraonQZYkSrYVBbZowJq5fSXQ8RCBkKe?filename=Fantasy%20Island%20TH.vtt"
 trailer: "https://www.youtube.com/watch?v=a6O30nJ02PU"
-banner: "https://i.ytimg.com/vi/NJZx-BIhwk0/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBAb23LzNB6os72p8UuMbo-eWRcCg"
+banner: "https://i3.ytimg.com/vi/OEw_PACCFf4/maxresdefault.jpg"
 ---
 
 When the owner and operator of a luxurious island invites a collection of guests to live out their most elaborate fantasies in relative seclusion, chaos quickly descends.
