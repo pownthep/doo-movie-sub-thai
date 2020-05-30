@@ -5,6 +5,7 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import Autocomplete from "../components/autocomplete";
+import Navbar from "../components/navbar";
 
 export default function Home({ allPostsData }) {
   return (
@@ -13,24 +14,35 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <div className={utilStyles.seachContainer}>
-        <Autocomplete suggestions={allPostsData} className={`${utilStyles.margin1Rem}`}/>
+        <Autocomplete suggestions={allPostsData} />
       </div>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h5 className={utilStyles.lightText}>LATEST / ล่าสุด</h5>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, thumbnail }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <img className={utilStyles.thumbnail} src={thumbnail} alt="" />
-              <Link href="/posts/[id]" as={`/posts/${id}`}>
-                <div className={utilStyles.title}>
-                  <a>{title}</a>
-                </div>
+          {allPostsData.map(
+            ({ id, date, title, thumbnail, banner, duration }) => (
+              <Link href="/posts/[id]" as={`/posts/${id}`} key={id}>
+                <li className={utilStyles.listItem}>
+                  <div className={utilStyles.bannerContainer}>
+                    <img className={utilStyles.thumbnail} src={banner} alt="" />
+                    <p className={utilStyles.duration}>{duration}</p>
+                  </div>
+                  <div className={utilStyles.detailGrid}>
+                    <img
+                      className={utilStyles.smThumbnail}
+                      src={thumbnail}
+                      alt={title}
+                    />
+                    <div>
+                      <div className={utilStyles.nowrap}>{title}</div>
+                      <small className={utilStyles.lightText}>
+                        <Date dateString={date} />
+                      </small>
+                    </div>
+                  </div>
+                </li>
               </Link>
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
+            )
+          )}
         </ul>
       </section>
     </Layout>

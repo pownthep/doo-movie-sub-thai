@@ -4,6 +4,7 @@ import Date from "../../components/date";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
 import Player from "../../components/player";
+import Link from "next/link";
 
 export default function Post({ postData }) {
   return (
@@ -11,7 +12,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
+      <article className="post-container">
         <Player
           source={postData.url}
           subtitle={postData.thai}
@@ -45,6 +46,11 @@ export default function Post({ postData }) {
             <b>Synopsis / เรื่องย่อ:</b>
           </p>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <div>
+            <Link href="/">
+              <a>← Back to home / กลับหน้าหลัก</a>
+            </Link>
+          </div>
         </div>
       </article>
     </Layout>

@@ -8,6 +8,7 @@ genre: "Drama, Music, Romance  / ละคร, ดนตรี, โรแมน�
 url: "https://ipfs.io/ipfs/QmcGcTnBBWW7GYsshN1XXmipjfHCqCp48Fc6szpXqWUBhs?filename=I.Still.Believe.2020.1080p.BluRay.H264.AAC-RARBG.mp4"
 thai: "https://ipfs.io/ipfs/QmdyyMB8yhX7M4eJAfVJVrTm3d2jdU7SwfpsmhqKizXP9J?filename=I%20still%20believe%20Thai.vtt"
 trailer: "https://www.youtube.com/watch?v=YnxHyBbYwQQ"
+banner: "https://i.ytimg.com/vi/YnxHyBbYwQQ/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBfdKNTfu-LEYDv0O8sABBRCmCCeg"
 ---
 
 The true-life story of Christian music star Jeremy Camp and his journey of love and loss that looks to prove there is always hope.
