@@ -8,6 +8,7 @@ genre: "Comedy, Drama, Thriller / ตลก, ดราม่า, เขย่า
 url: "https://ipfs.io/ipfs/QmZozH9ZzaxBNw23i4wtJHrqwMHogFrpgseReRQ5uZvfqA?filename=Parasite.2019.KORAEN.1080p.BluRay.H264.AAC-VXT.mp4"
 thai: "https://ipfs.io/ipfs/QmSQRGdGhcCx7b78tkJZ1q8EucE1dqLuc3yA9zvRaJr6UB?filename=parasite-th.vtt"
 trailer: "https://www.youtube.com/watch?v=fJtdxN33fHQ"
+banner: "https://i.ytimg.com/vi/5xH0HfJHsaY/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAy3uDcoVnhR79DYtwhxzbjO1VDQA"
 ---
 
 Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.

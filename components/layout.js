@@ -9,7 +9,7 @@ export const siteTitle = "Doo Movie Sub Thai (ดูหนังซับไท�
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/images/cinema.svg" />
         <meta
@@ -26,24 +26,11 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        {home ? (
-          <>
-            <Navbar />
-          </>
-        ) : (
-          <>
-            <Navbar />
-          </>
-        )}
+        {home ? <>{/* <Navbar /> */}</> : <>{/* <Navbar /> */}</>}
       </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home / กลับหน้าหลัก</a>
-          </Link>
-        </div>
-      )}
+      <main>
+        {children}
+      </main>
     </div>
   );
 }

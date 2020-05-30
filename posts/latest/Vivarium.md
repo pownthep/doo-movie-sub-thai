@@ -8,6 +8,7 @@ genre: "Horror, Mystery, Sci-Fi  / สยองขวัญ, ลึกลับ,
 url: "https://ipfs.io/ipfs/QmeZTh6Ky37fV7C7gPgptnrdcxC9rNQzHpjBWkNFrQAzsv?filename=Vivarium.2019.1080p.BluRay.H264.AAC-RARBG.mp4"
 thai: ""
 trailer: "https://www.youtube.com/watch?v=U3Xy2x9NDrw"
+banner: "https://i.ytimg.com/vi/U3Xy2x9NDrw/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAKvUXI2sywmJdDXe8e7EAskzZPlw"
 ---
 
 A young couple looking for the perfect home find themselves trapped in a mysterious labyrinth-like neighborhood of identical houses.

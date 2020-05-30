@@ -8,6 +8,7 @@ genre: "Action, Thriller / แอ็คชั่น, เขย่าขวัญ
 url: "https://ipfs.io/ipfs/QmczA6rk2sDnhZxJpz4LypbzRqz5ZbNFbFYx5xkmmpQjXJ?filename=Die.Hard.1988.1080p.BluRay.H264.AAC-RARBG.mp4"
 thai: "https://ipfs.io/ipfs/QmcdSKjjmJK4owG1FteNcriLsvxZehunjAZusmd6AB91ZY?filename=th.vtt"
 trailer: "https://www.youtube.com/watch?v=jaJuwKCmJbY"
+banner: "https://i.ytimg.com/vi/jaJuwKCmJbY/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDPW7zYQUcSBHeYZiUgBM7wqF35fw"
 ---
 
 An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.

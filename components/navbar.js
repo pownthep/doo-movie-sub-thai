@@ -15,13 +15,12 @@ export default function Navbar() {
         </a>
       </div> */}
       <div className={utilStyles.navItemContainer}>
-        <img
-          src="/images/cultures.svg"
-          alt=""
-          className={utilStyles.navItemIcon}
-        /> 
         <Link href="/">
-          <a className={utilStyles.navItem}>Home:บ้าน</a>
+          <img
+            src="/images/cultures.svg"
+            alt="Home:บ้าน"
+            className={utilStyles.navItemIcon}
+          />
         </Link>
       </div>
       {/* <div className={utilStyles.navItemContainer}>
