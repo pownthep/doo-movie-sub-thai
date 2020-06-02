@@ -93,6 +93,11 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  .thumbnail {
+    width: 100vw;
+    border-radius: 0px;
+  }
 }
 
 .seachContainer {
@@ -103,11 +108,11 @@
   width: 100%;
   box-sizing: border-box;
   border: 0px solid rgb(255, 255, 255);
-  font-size: 18px;
-  height: 4rem;
+  font-size: 14px;
+  height: 3rem;
   background-color: var(--container-color);
   background-image: url("../public/images/cinema 32x32.png");
-  background-position: 10px 12px;
+  background-position: 10px 6px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 50px;
   -webkit-transition: all 0.4s ease-in-out;
@@ -183,6 +188,7 @@
   background-color: var(--container-color);
   transition: background-color 300ms ease-in-out;
   cursor: pointer;
+  font-size:13px;
 }
 
 
@@ -192,7 +198,7 @@
 }
 
 .suggestionImg {
-  width: 50px;
+  width: 40px;
   display: inline-block;
   margin-right: 10px;
 }
@@ -229,7 +235,6 @@
 .nowrap {
   white-space: nowrap;
   width: 201px;
-  height: 32px;
   overflow: hidden;
   font-size: 16px;
 }
@@ -250,7 +255,7 @@
 .duration {
   position: absolute;
   right: 5px;
-  bottom: 5px;
+  bottom: 10px;
   z-index: 1;
   margin: 0px;
   font-size:12px;
